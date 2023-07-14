@@ -34,6 +34,7 @@
 7) For Queue now create table via following command--<br/>
 <code>
     php artisan queue:table
+    php artisan migrate
 </code>
 <br/>
 8) Implements the WelcomeNotification class-- <br/>
@@ -44,4 +45,8 @@
 9) For run queue use the following command--> <br/>
 <code>
     php artisan queue:listen
+</code><br/>
+10) Set QUEUE_CONNECTION varibale in .env --<br/>
+<code>
+    QUEUE_CONNECTION=database
 </code>
